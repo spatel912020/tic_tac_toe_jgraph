@@ -1,0 +1,12 @@
+
+newgraph
+xaxis min 0 max 1 nodraw
+yaxis min 0 max 1 nodraw
+
+newline poly pfill 1 color 0 0 1 linethickness 4 pts
+	shell : echo "" | awk '{ \
+		pi = atan2(0, -1); \
+		for (i = 0; i <= 360; i++){ \
+			printf(" %f %f", (1*sin(i*pi/90)+1)/2, (1*cos(i*pi/90)+1)/2); \
+		} printf("\n") }'
+

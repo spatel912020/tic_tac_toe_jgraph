@@ -1,0 +1,9 @@
+newgraph
+xaxis min 0 max 3 hash 1 mhash 0  no_draw_axis grid_lines
+no_auto_hash_labels no_draw_hash_marks
+
+yaxis min 0 max 3 hash 1 mhash 0  no_draw_axis grid_lines
+no_auto_hash_labels no_draw_hash_marks
+
+
+shell : lines=$""; while read line; do ./tic_tac $line; done < game1.txt
