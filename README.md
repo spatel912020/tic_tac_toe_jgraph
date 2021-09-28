@@ -23,4 +23,6 @@ run `make`
 
 Once file is compiled run `./jgraph tic_tac_toe.jgr | convert -density 400 tic_tac_toe.ps -resize 25% -quality 92 tic_tac_toe.jpg ` to create a jpg file
 
-![](https://drive.google.com/file/d/1udPP1cJzQOc8VYvI-dYC5fX6c4scDp4-/view?usp=sharing)
+Example:
+
+![](./tic_tac_toe.jpg)
