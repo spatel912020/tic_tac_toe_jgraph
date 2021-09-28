@@ -15,11 +15,11 @@ int main()
 	printf("yaxis min 0 max 3 hash 1 mhash 0  no_draw_axis grid_lines\n");
 	printf("no_auto_hash_labels no_draw_hash_marks\n");
 	while(cin>>turn>>x>>y){
-		if(command != 0){
-			printf("copygraph\n");
-			printf("x_translate %d\n", (command/3)*5);
-			printf("y_translate %d\n", (command%3)*-5);
-		}
+        if(command != 0){
+            printf("copygraph\n");
+            printf("x_translate %d\n", (command/3)*4);
+            printf("y_translate %d\n", (command%3)*-4);
+        }
 		for(int i = 0; i < prev_command.size(); i++){
 			cout<<prev_command[i]<<endl;
 		}
