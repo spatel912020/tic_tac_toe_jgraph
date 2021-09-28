@@ -21,7 +21,7 @@ or
 
 run `make`
 
-Once file is compiled run `./jgraph tic_tac_toe.jgr | convert -density 400 tic_tac_toe.ps -resize 25% -quality 92 tic_tac_toe.jpg ` to create a jpg file
+Once file is compiled run `./jgraph tic_tac_toe.jgr | convert -density 400 - -resize 25% -background white -alpha remove -quality 100 tic_tac_toe.jpg` to create a jpg file
 
 Example:
 
