@@ -26,3 +26,7 @@ Once file is compiled run `./jgraph tic_tac_toe.jgr | convert -density 400 tic_t
 Example:
 
 ![](./tic_tac_toe.jpg)
+
+### Create You Own Tic Tac Toe Graphs:
+
+Inside of tic_tac_toe.jgr file on line `shell : while read line ; do ./tic_tac_toe $line; done < game1.txt` , change game.txt to desired tic tac toe data file.
